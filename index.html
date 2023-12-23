@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="index.css" rel="stylesheet" />
+    <title>Mydetails</title>
+  </head>
+  <body>
+    <h1 style="display: flex; justify-content: center; color: blueviolet">
+      Registration form
+    </h1>
+    <div
+      id="Registration "
+      style="justify-content: center; align-items: center; display: flex"
+    >
+      <form action="#" class="registrationform" method="post">
+        <label for="myname">
+          full name :
+          <input
+            value="Krish Bhurtel"
+            type="text"
+            style="margin: 10px"
+            placeholder="enter your name"
+            required
+          />
+        </label>
+        <br /><br />
+
+        <label for="email">
+          email :
+          <input
+            type="email"
+            value="iamkrisbhurtel@gmail.com"
+            style="margin: 10px"
+            placeholder="enter your email address"
+            required
+          />
+        </label>
+        <br /><br />
+        <label for="password">
+          password :
+          <input
+            minlength="8"
+            value="iamkrish001"
+            type="password"
+            style="margin: 10px"
+            placeholder="enter your password"
+            required
+          />
+        </label>
+        <br /><br />
+        <label for="dob">
+          date of birth:
+          <input type="date" style="margin: 10px" required />
+        </label>
+
+        <br />
+        <br />
+        <label for="gender"
+          >Select your gender :
+          <select name="gender" id="gender" style="margin: 10px" required>
+            <option value="">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </label>
+        <br /><br />
+        <label for="language"
+          >Select your language:
+          <select name="language" id="mylanguage"  style="margin: 10px"  required>
+            
+            <option value="">Select</option>
+            <option value="Nepali">Nepali</option>
+            <option value="Chinese">Chinese</option>
+            <option value="Korean">Korean</option>
+            <option value="Hindi">Hindi</option>
+            <option value="English">English</option>
+            <option value="German">German</option>
+          </select>
+        </label>
+        <br />
+        <br />
+<!-- 
+        <img src="images/meme.jpg" height="200px" width="100px"  style="margin: 30px;"
+                 alt="meme">
+ -->
+
+      <br>
+
+     <!-- hyperlink , visited ,unvisited and active  -->
+     <a href="https://www.google.com" , target="_blank"><img src="images/googleimg.jpg" alt="googleimage" height="50"></a> <br>Go to google <br>
+        <label for="checkbox">
+          <input
+            type="radio"
+            name="mycheck box"
+            style="margin: 10px"
+            required
+          />
+          I assure the above information is true
+        </label>
+        <br /><br />
+        <input type="submit" id="submitbutton"  />
+      </form>
+    </div>
+  </body>
+</html>

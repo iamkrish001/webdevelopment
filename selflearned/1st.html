@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All About Css</title>
+  </head>
+  <body>
+    <!-- selector is which element is being selected  / target
+        Similarly , property: value ; -->
+    <!--  Project from Youtube-->
+    <!-- pseudo class basically means adding extra properties to the element -->
+    <style>
+      .subscribe-button {
+        background-color: rgb(201,0,0); /* rgb() stands for red , green and blue color picker  if all 3 = 0 color is black and 255 is white */
+        color: white;
+        border: none;
+        height: 36px;
+        width: 103px;
+        border-radius: 2px;
+        cursor: pointer; /* change the cursor to pointer*/
+        transition: opacity 0.15s;
+      }
+
+      /* creating a pseudo class of hover and active of subscribe button*/
+      .subscribe-button:hover {
+    opacity: 0.7;
+      }
+      .subscribe-button:active {
+        opacity:0.4;
+      }
+
+      .join-button {
+        margin-left: 15px;
+        color:rgb(6, 95, 212) ;
+        background-color: rgb(240, 240, 240);
+        border-radius: 2px;
+        border-color:rgb(6, 95, 212) ; 
+        cursor: pointer;
+        height: 36px;
+        width: 62px;
+        border-style: solid;
+        border-width: 1px;
+        transition: background-color 0.15s, color 0.15s ;
+      }
+
+      .join-button:hover{
+        background-color: rgb(6, 95, 212) ;
+        color: white;
+      }
+
+      .tweet-button {
+        color: white;
+        background-color: rgb(6, 95, 212) ;
+        height: 36px;
+        width: 76px;
+        margin-left: 15px;
+        border: none;
+        border-radius: 18px;
+        font-weight: bold;
+        font-size: large;
+        transition: box-shadow0.4s;
+        cursor: pointer;
+      }
+      .tweet-button:hover{
+        box-shadow: 5px  5px 10px rgba(0, 0, 0, 0.20);  /* box shadow takes 4 property horizontal axis, vertical, blur and color, in rgba a is alpha which defines opacity of the color */
+      }
+    
+    </style>
+    <!-- Creating a button and styling it with css -->
+    <button class="subscribe-button">SUBSCRIBE</button>
+    <button class="join-button">JOIN</button>
+    <button class="tweet-button">Tweet</button>
+  </body>
+</html>

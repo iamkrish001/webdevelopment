@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Textstyle</title>
+  </head>
+  <body>
+    <style>
+      .title {
+        color: white;
+        font-weight: bold;
+        font-size: larger;
+        margin-bottom: 0px;
+        width: 300px;
+        line-height: 30px;
+      }
+      p {
+        color: #606060;
+        font-family: Arial;
+        margin: 0;
+      }
+      /* even after setting p margin to 0 , there is 4px margin , it has a priority order 
+  selectors priority >> element priority
+ */
+      .details {
+        margin-top: 4px;
+      }
+      .youtuber {
+        margin-bottom: 30px;
+      }
+      .description {
+        width: 300px;
+        font-size: 16px;
+        line-height: 25px;
+      }
+
+      .footer {
+        background-color: #e34140;
+        margin-top: 110px;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        font-size: 14px;
+      }
+
+      .shopnow:hover{
+        text-decoration: underline ;
+        cursor: pointer;
+      }
+    </style>
+
+    <p class="title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+    <p class="details">3.4M views &middot; 6 months ago</p>
+    <p class="youtuber">Marques Brownlee &#10003;</p>
+    <!-- entity number for tick is used here-->
+    <p class="description">
+      Talking tech and AI on the heels of Google I/O. Also a daily driver phone
+      reveal from Google's CEO. Shoutout to Sundar!
+    </p>
+    <p class="footer">
+      Shop early for the best selection of holiday favourites.
+      <span class="shopnow">Shop now &gt; </span> <!-- text element tags = span , strong, u-->
+    </p>
+  </body>
+</html>

@@ -1,3 +1,26 @@
-h1{
-    color: aqua;
+h1 {
+  color: aqua;
+}
+.name {
+  color: greenyellow;
+}
+.description {
+  color: blue;
+}
+
+.box {
+  height: 100px;
+  width: 300px;
+
+  background-color: aqua;
+  color: red;
+  text-align: center;
+  padding-top: 50px;
+  font-weight: bold;
+  margin: 10px;
+}
+.box-all {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* used to make it responsive */
 }

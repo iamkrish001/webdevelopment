@@ -55,3 +55,54 @@ display: flex ;
   padding-top: 10px;
 
 }
+
+
+/* .mybox{
+  background-color: rgb(244, 224, 4) ; 
+  height: 500px; 
+  width: 800px;
+  margin-top: 10px ;
+position: relative;
+}
+
+.box1{
+background-color: rebeccapurple;
+position: absolute;
+  width: 300px; 
+  right:  30px;
+/* top: 0 ; */
+/* bottom: 0; */
+/* left: 0 ; */
+
+ .hero-section h1{
+  font-size: 40px;
+  font-variant: small-caps;
+ }
+
+ .hero-section h1 span{
+color: aqua;
+ }
+ .buttons button{
+  padding: 15px;
+  border: none;
+  background-color: #ae1212;
+  margin-top: 10px;
+  margin: 10px;
+  border-radius: 10px ;
+ }
+.hero-section{
+  background:url(/images/astro2.jpg) no-repeat ;
+  background-size: cover;
+  height: 100vh;
+  
+}
+
+.buttons button:hover{
+  cursor: pointer;
+}
+
+.hero-section p {
+
+  font-size: 18px ;
+  padding: 10px ;
+ }

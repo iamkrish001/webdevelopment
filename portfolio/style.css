@@ -6,22 +6,19 @@
 
 .nav-bar {
   background-color: rgb(77, 63, 143);
-display: flex;
-justify-content: space-between;
-
+  display: flex;
+  justify-content: space-between;
 }
 
 .mylist {
- list-style: none;
-display: flex;
-
-
+  list-style: none;
+  display: flex;
 }
 li:hover {
-cursor: pointer;
+  cursor: pointer;
 }
 
-li{
+li {
   margin-right: 40px;
   font-size: 17px;
   font-family: Arial;
@@ -29,33 +26,28 @@ li{
 .myimg {
   height: 50px;
   width: 50px;
-
 }
 
 .topnav {
-  background-color: rgb(98, 80, 180) ; 
+  background-color: rgb(98, 80, 180);
   color: #fff;
   display: flex;
-justify-content: space-between;
-
-
+  justify-content: space-between;
 }
 
-.social-media-links{
+.social-media-links {
   display: flex;
-  list-style: none ;
-justify-content: space-between;
-margin-left: 500px;
-padding-bottom: 10px;
+  list-style: none;
+  justify-content: space-between;
+  margin-left: 500px;
+  padding-bottom: 10px;
 }
 
-.mylist2{
-display: flex ; 
+.mylist2 {
+  display: flex;
   list-style: none;
   padding-top: 10px;
-
 }
-
 
 /* .mybox{
   background-color: rgb(244, 224, 4) ; 
@@ -74,35 +66,48 @@ position: absolute;
 /* bottom: 0; */
 /* left: 0 ; */
 
- .hero-section h1{
+.hero-section h1 {
   font-size: 40px;
   font-variant: small-caps;
- }
+}
 
- .hero-section h1 span{
-color: aqua;
- }
- .buttons button{
+.hero-section h1 span {
+  color: aqua;
+}
+
+.buttons button {
   padding: 15px;
   border: none;
   background-color: #ae1212;
   margin-top: 10px;
   margin: 10px;
-  border-radius: 10px ;
- }
-.hero-section{
-  background:url(/images/astro2.jpg) no-repeat ;
-  background-size: cover;
-  height: 100vh;
-  
+  border-radius: 10px;
 }
 
-.buttons button:hover{
+.buttons button:hover {
   cursor: pointer;
+}
+.hero-section {
+  color: black;
+  position: relative;
 }
 
 .hero-section p {
+  font-size: 18px;
+  padding: 10px;
+}
 
-  font-size: 18px ;
-  padding: 10px ;
- }
+.overlay {
+  background: url(/images/astro2.jpg) no-repeat;
+  background-size: cover;
+  height: 85vh;
+  opacity: 0.3;
+}
+
+.container {
+  position: absolute;
+text-align: center;
+left: 0;
+right: 0; 
+top: 20%;
+}

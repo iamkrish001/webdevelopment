@@ -1,0 +1,15 @@
+.myimg img{
+  width: 200px;
+  border-radius: 20px;
+}
+
+
+
+.myimg2{
+    width: 400px;
+    height: 400px;
+    object-position: top;
+    object-fit: contain;
+    border-color: red;
+    border-width: 2px;
+}

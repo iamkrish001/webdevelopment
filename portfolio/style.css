@@ -98,10 +98,10 @@ position: absolute;
 }
 
 .overlay {
-  background: url(/images/astro2.jpg) no-repeat;
+  background: url(/images/astro1.jpg) no-repeat;
   background-size: cover;
   height: 85vh;
-  opacity: 0.3;
+  opacity: 0.1;
 }
 
 .container {
@@ -110,4 +110,80 @@ text-align: center;
 left: 0;
 right: 0; 
 top: 20%;
+}
+
+/*about section styling*/
+/* .about_section{
+  padding: 50px;
+
+}
+.about_section .container{
+  width: 85%;
+display: flex;
+  margin: auto;
+  align-items: center;
+bottom: 0;
+}
+.about_section .image img{
+  max-width: 450px;
+
+}
+.about_content{
+  padding: 10px 30px;
+}
+.about_content .head h2{
+  font-size: 45px;
+  color: cadetblue;
+}
+.about_content .head{
+  display: flex;
+  align-items: center;
+}
+.about_content .head .line{
+  height: 2px;
+  width: 80px;
+  background-color: black;
+}
+.about_content .content p{
+  font-size: 17px;
+  color: rgb(142, 101, 181);
+  line-height: 30px;
+  padding: 20px 0px;
+}
+.about_content button{
+  border: none;
+  padding: 10px 25px;
+  background-color: steelblue;
+  font-size: 17px;
+  margin-right: 15px;
+} */
+/*about section styling end*/
+
+.container1 {
+  display: flex;
+  margin-top: 20px ;
+ bottom: 0;
+}
+img{
+  width: 80px;
+  margin-right: 20px;
+}
+
+.about_section .content{
+color: rgb(164, 236, 219);
+}
+
+.about_section .mybutton{
+height: 36px;
+border-radius: 18px;
+border-width: 0;
+padding: 10px;
+color: red;
+background-color: skyblue;
+font-weight: bold;
+margin-top: 10px;
+}
+
+.mybutton:hover{
+  cursor: pointer;
 }

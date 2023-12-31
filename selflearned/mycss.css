@@ -3,13 +3,19 @@
   border-radius: 20px;
 }
 
+.myimage{
+ margin-top: 20px;
+ width: 300px;
+ height: 300px;
+ border-width: 2px;
+opacity: 0.2;
 
+}
 
-.myimg2{
-    width: 400px;
-    height: 400px;
-    object-position: top;
-    object-fit: contain;
-    border-color: red;
-    border-width: 2px;
+.text{
+padding: 5px;
+}
+input{
+  padding: 5px;
+  margin-top: 10px;
 }

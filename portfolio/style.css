@@ -167,23 +167,105 @@ bottom: 0;
 img{
   width: 80px;
   margin-right: 20px;
+
 }
 
-.about_section .content{
-color: rgb(164, 236, 219);
+ .card-title{
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+.head h2{
+text-align: center;
+color:rgb(98, 80, 180);
+
 }
 
-.about_section .mybutton{
-height: 36px;
-border-radius: 18px;
-border-width: 0;
-padding: 10px;
-color: red;
-background-color: skyblue;
-font-weight: bold;
-margin-top: 10px;
+.readmore{
+color: rgb(12, 57, 96);
 }
-
-.mybutton:hover{
+.readmore:hover{
   cursor: pointer;
 }
+
+.content{
+  text-align: center;
+}
+.head
+{
+  margin-top: 100px;
+}
+.line{
+ display: flex;
+ justify-content: center;
+}
+
+.underline{
+  height: 2px; 
+  width: 80px;
+  background-color: rgb(172, 5, 5);
+  margin: auto;
+  margin-bottom:10px ;
+}
+
+.card-head{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color:rgb(98, 80, 180) ;
+
+
+}
+.card-head2{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color:rgb(98, 80, 180) ;
+
+
+}
+.date{
+  font-size: 16px;
+}
+
+.resume-section {
+  width: 90%;
+  margin: auto;
+  display: f;
+  justify-content: center;
+
+}
+
+.resume-card{
+
+ width: 35%;
+border: 1px solid rgb(0, 251, 255);
+padding: 0px 20px;
+margin: 20px;
+margin-left: 22px;
+}
+
+.card-head h3::after{
+  content: "";
+  width: 50px;
+  border-bottom: 2px solid  rgb(222, 9, 9);
+  display: block;
+  margin: 2px;
+}
+
+.card-head2 h3::after{
+  content: "";
+  width: 110px;
+  border-bottom: 2px solid  rgb(222, 9, 9);
+  display: block;
+  margin: 2px;
+}
+
+.main{
+display: flex;
+flex-wrap: wrap;
+}
+
+
+.resume-card{
+justify-content: center;}

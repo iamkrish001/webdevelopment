@@ -22,6 +22,7 @@ li {
   margin-right: 40px;
   font-size: 17px;
   font-family: Arial;
+
 }
 .myimg {
   height: 50px;
@@ -175,7 +176,7 @@ img{
   margin-bottom: 20px;
 
 }
-.head h2{
+ h2{
 text-align: center;
 color:rgb(98, 80, 180);
 
@@ -189,15 +190,17 @@ color: rgb(12, 57, 96);
 }
 
 .content{
-  text-align: center;
+  text-align: right;
+
 }
-.head
+.resumehead
 {
   margin-top: 100px;
+  margin-bottom: 10px;
+
 }
 .line{
- display: flex;
- justify-content: center;
+text-align: center;
 }
 
 .underline{
@@ -229,20 +232,17 @@ color: rgb(12, 57, 96);
 }
 
 .resume-section {
-  width: 90%;
+  width: 95%;
   margin: auto;
-  display: f;
   justify-content: center;
 
 }
 
 .resume-card{
-
- width: 35%;
+ width: 26%;
 border: 1px solid rgb(0, 251, 255);
 padding: 0px 20px;
-margin: 20px;
-margin-left: 22px;
+margin: 10px;
 }
 
 .card-head h3::after{
@@ -269,3 +269,64 @@ flex-wrap: wrap;
 
 .resume-card{
 justify-content: center;}
+
+.skill-label{
+  padding: 3px 0px;
+}
+.skill-label label{
+font-weight: 550;
+font-size: 13px;
+}
+.label{
+  margin: 3px;
+  width: 100%;
+  height: 7px;
+  background-color: rgb(184, 176, 176);
+  border-radius: 7px;
+}
+
+.html{
+  width: 90%;
+  height: 7px;
+  background-color: rgb(33, 192, 231);
+}
+
+.css{
+  width: 70%;
+  height: 7px;
+  background-color: rgb(33, 192, 231);
+}
+
+.js{
+  width: 2%;
+  height: 7px;
+  background-color: rgb(33, 192, 231);
+}
+.c{
+  width: 90%;
+  height: 7px;
+  background-color: rgb(33, 192, 231);
+}
+.cpp{
+  width: 90%;
+  height: 7px;
+  background-color: rgb(33, 192, 231);
+}
+
+.python{
+  width: 20%;
+  height: 7px;
+  background-color: rgb(33, 192, 231);
+}
+
+.flutter{
+  width: 15%;
+  height: 7px;
+  background-color: rgb(33, 192, 231);
+}
+
+.mypic{
+  display: block;
+  width: 50%;
+  height: 55vh;
+}

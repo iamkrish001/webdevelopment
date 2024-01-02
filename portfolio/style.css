@@ -188,11 +188,10 @@ color: rgb(12, 57, 96);
 .readmore:hover{
   cursor: pointer;
 }
-
-.content{
-  text-align: right;
-
+.about-content{
+  display: flex;
 }
+
 .resumehead
 {
   margin-top: 100px;
@@ -329,4 +328,28 @@ font-size: 13px;
   display: block;
   width: 50%;
   height: 55vh;
+}
+
+.mid-section{
+  background-color: rgb(89, 69, 99) ;
+  margin-top: 40px  ; 
+}
+
+.mid-card{
+  display: flex;
+  margin: 20px 20px ;
+}
+.mid-icon{
+ font-size: 25px;
+
+}
+.mid-content{
+  font-size: 17px;
+
+}
+
+.container2{
+  display: flex;
+  justify-content: space-between;
+
 }

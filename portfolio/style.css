@@ -1,6 +1,7 @@
 * {
   /*universal selector */
   margin: 0;
+
   padding: 0;
 }
 
@@ -22,7 +23,6 @@ li {
   margin-right: 40px;
   font-size: 17px;
   font-family: Arial;
-
 }
 .myimg {
   height: 50px;
@@ -107,10 +107,10 @@ position: absolute;
 
 .container {
   position: absolute;
-text-align: center;
-left: 0;
-right: 0; 
-top: 20%;
+  text-align: center;
+  left: 0;
+  right: 0;
+  top: 20%;
 }
 
 /*about section styling*/
@@ -162,71 +162,62 @@ bottom: 0;
 
 .container1 {
   display: flex;
-  margin-top: 20px ;
- bottom: 0;
+  margin-top: 20px;
+  bottom: 0;
 }
-img{
+img {
   width: 80px;
   margin-right: 20px;
-
 }
 
- .card-title{
+.card-title {
   margin-top: 20px;
   margin-bottom: 20px;
-
 }
- h2{
-text-align: center;
-color:rgb(98, 80, 180);
-
+h2 {
+  text-align: center;
+  color: rgb(98, 80, 180);
 }
 
-.readmore{
-color: rgb(12, 57, 96);
+.readmore {
+  color: rgb(12, 57, 96);
 }
-.readmore:hover{
+.readmore:hover {
   cursor: pointer;
 }
-.about-content{
+.about-content {
   display: flex;
 }
 
-.resumehead
-{
+.resumehead {
   margin-top: 100px;
   margin-bottom: 10px;
-
 }
-.line{
-text-align: center;
+.line {
+  text-align: center;
 }
 
-.underline{
-  height: 2px; 
+.underline {
+  height: 2px;
   width: 80px;
   background-color: rgb(172, 5, 5);
   margin: auto;
-  margin-bottom:10px ;
+  margin-bottom: 10px;
 }
 
-.card-head{
+.card-head {
   margin-top: 20px;
   margin-bottom: 10px;
   font-size: 20px;
-  color:rgb(98, 80, 180) ;
-
-
+  color: rgb(98, 80, 180);
 }
-.card-head2{
+.card-head2 {
   margin-top: 20px;
   margin-bottom: 10px;
   font-size: 20px;
-  color:rgb(98, 80, 180) ;
-
-
+  color: rgb(98, 80, 180);
 }
-.date{
+.date {
   font-size: 16px;
 }
 
@@ -234,49 +225,48 @@ text-align: center;
   width: 95%;
   margin: auto;
   justify-content: center;
-
 }
 
-.resume-card{
- width: 26%;
-border: 1px solid rgb(0, 251, 255);
-padding: 0px 20px;
-margin: 10px;
+.resume-card {
+  width: 26%;
+  border: 1px solid rgb(0, 251, 255);
+  padding: 0px 20px;
+  margin: 10px;
 }
 
-.card-head h3::after{
+.card-head h3::after {
   content: "";
   width: 50px;
-  border-bottom: 2px solid  rgb(222, 9, 9);
+  border-bottom: 2px solid rgb(222, 9, 9);
   display: block;
   margin: 2px;
 }
 
-.card-head2 h3::after{
+.card-head2 h3::after {
   content: "";
   width: 110px;
-  border-bottom: 2px solid  rgb(222, 9, 9);
+  border-bottom: 2px solid rgb(222, 9, 9);
   display: block;
   margin: 2px;
 }
 
-.main{
-display: flex;
-flex-wrap: wrap;
+.main {
+  display: flex;
+  flex-wrap: wrap;
 }
 
+.resume-card {
+  justify-content: center;
+}
 
-.resume-card{
-justify-content: center;}
-
-.skill-label{
+.skill-label {
   padding: 3px 0px;
 }
-.skill-label label{
-font-weight: 550;
-font-size: 13px;
+.skill-label label {
+  font-weight: 550;
+  font-size: 13px;
 }
-.label{
+.label {
   margin: 3px;
   width: 100%;
   height: 7px;
@@ -284,72 +274,128 @@ font-size: 13px;
   border-radius: 7px;
 }
 
-.html{
+.html {
   width: 90%;
   height: 7px;
   background-color: rgb(33, 192, 231);
 }
 
-.css{
+.css {
   width: 70%;
   height: 7px;
   background-color: rgb(33, 192, 231);
 }
 
-.js{
+.js {
   width: 2%;
   height: 7px;
   background-color: rgb(33, 192, 231);
 }
-.c{
+.c {
   width: 90%;
   height: 7px;
   background-color: rgb(33, 192, 231);
 }
-.cpp{
+.cpp {
   width: 90%;
   height: 7px;
   background-color: rgb(33, 192, 231);
 }
 
-.python{
+.python {
   width: 20%;
   height: 7px;
   background-color: rgb(33, 192, 231);
 }
 
-.flutter{
+.flutter {
   width: 15%;
   height: 7px;
   background-color: rgb(33, 192, 231);
 }
 
-.mypic{
+.mypic {
   display: block;
   width: 50%;
   height: 55vh;
 }
 
-.mid-section{
-  background-color: rgb(89, 69, 99) ;
-  margin-top: 40px  ; 
+.mid-section {
+  background-color: rgb(113, 97, 121);
+  margin-top: 40px;
 }
 
-.mid-card{
+.mid-card {
   display: flex;
-  margin: 20px 20px ;
+  margin: 20px 20px;
 }
-.mid-icon{
- font-size: 25px;
-
+.mid-icon {
+  font-size: 25px;
 }
-.mid-content{
+.mid-content {
   font-size: 17px;
-
 }
 
-.container2{
+.container2 {
   display: flex;
   justify-content: space-between;
+}
 
+.head {
+  margin-top: 40px;
+}
+
+.service-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service-section .service-card {
+  margin-left: 20px;
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px,
+    rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px,
+    rgba(240, 46, 170, 0.05) 0px 25px;
+  width: 350px;
+  height: 200px;
+ margin: auto;
+ margin-bottom: 40px;
+  left: 0px;
+}
+
+.service-icon {
+  border-radius: 50%;
+  border: 2px solid rgb(2, 170, 162);
+  width: 60px;
+  height: 60px;
+  margin-left: 150px;
+  justify-content: center;
+}
+
+.service-section .service-icon i {
+  font-size: 19px;
+  color: rgb(0, 251, 255);
+  margin-top: 17px;
+  margin-left: 20px;
+}
+
+.service-content {
+  padding: 15px;
+}
+
+.service-section {
+  margin-bottom: 40px;
+}
+
+.service-section .service-head {
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+
+.service-content,
+p {
+  font-style: italic;
+}
+
+.title {
+  text-align: center;
 }

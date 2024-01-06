@@ -185,18 +185,21 @@ h2 {
 .readmore:hover {
   cursor: pointer;
 }
-.about-content {
-  display: flex;
-}
+
 
 .resumehead {
   margin-top: 100px;
   margin-bottom: 10px;
 }
-.line {
-  text-align: center;
-}
 
+.mypic{
+  display: block;
+  width: 362px;
+  height: 44vh;
+}
+.content{
+  display: flex;
+}
 .underline {
   height: 2px;
   width: 80px;

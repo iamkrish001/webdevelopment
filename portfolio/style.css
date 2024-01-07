@@ -402,3 +402,69 @@ p {
 .title {
   text-align: center;
 }
+
+
+/* testimonial styling start  */
+.testimonial-section{
+  background-image: url("/images/testimonialimg.jpg");
+  background-position: center;
+  min-height: 300px;
+  background-size: cover;
+  background-repeat:no-repeat ;
+  opacity: 0.3;
+  background-attachment: fixed;
+}
+
+/* testimonial styling end  */
+
+/* blogs-section start  */
+.blogs-section{
+
+}
+.blog-head{
+  margin-top: 60px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.blog-image img{
+height: 230px;
+width: 265px;
+}
+.blog-card{
+  margin-left: 20px;
+  
+
+.ai{
+    background-color: rgb(98, 80, 180);
+    border-radius: 15px;
+    width: 40px;
+    padding: 4px;
+    text-align: center;
+  }
+
+}
+.blog-midsection{
+  display: flex;
+
+  .blog-date{
+  color: rgb(98, 80, 180);
+
+  }
+}
+.blog-date i{
+  margin-left: 130px;
+}
+
+.blog-container{
+ justify-content: space-around;
+  display: flex;
+}
+.blog-content{
+  margin: 20px;
+  width: 265px;
+}
+.blog-paragraph{
+margin-top: 10px;
+}
+
+/* blogs-section end  */

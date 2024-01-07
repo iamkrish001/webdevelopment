@@ -15,7 +15,7 @@
   list-style: none;
   display: flex;
 }
-li:hover {
+li, .blog-image :hover {
   cursor: pointer;
 }
 
@@ -27,6 +27,7 @@ li {
 .myimg {
   height: 50px;
   width: 50px;
+  border-radius: 30px;
 }
 
 .topnav {
@@ -404,22 +405,10 @@ p {
 }
 
 
-/* testimonial styling start  */
-.testimonial-section{
-  background-image: url("/images/testimonialimg.jpg");
-  background-position: center;
-  min-height: 300px;
-  background-size: cover;
-  background-repeat:no-repeat ;
-  opacity: 0.3;
-  background-attachment: fixed;
-}
-
-/* testimonial styling end  */
 
 /* blogs-section start  */
 .blogs-section{
-
+color: rgb(25, 67, 63);
 }
 .blog-head{
   margin-top: 60px;
@@ -429,6 +418,8 @@ p {
 .blog-image img{
 height: 230px;
 width: 265px;
+border-radius: 15px;
+opacity: 0.7;
 }
 .blog-card{
   margin-left: 20px;
@@ -468,3 +459,41 @@ margin-top: 10px;
 }
 
 /* blogs-section end  */
+
+
+
+/* testimonial section start  */
+
+.testimonial-section{
+  background-image: url("/images/testimonialimg.jpg");
+  background-position: center;
+  min-height: 300px;
+  background-size: cover;
+  background-repeat:no-repeat ;
+  opacity: 1;
+  background-attachment: fixed;
+
+}
+
+.testimonial-head h2{
+font-weight: bold;
+}
+
+.testimonial-img img{
+border-radius: 40px;
+margin-top: 10px;
+margin-left: 47%;}
+
+.testimonial-para p{
+margin-top: 10px;
+  text-align: center;
+}
+.testimonial-para i {
+  color: yellow;
+}
+.testimonial-author{
+  font-style: normal;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+/* testimonial section end  */

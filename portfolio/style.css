@@ -425,17 +425,17 @@ opacity: 0.7;
 }
 .blog-card{
   margin-left: 20px;
-  
-
-.ai{
-    background-color: rgb(98, 80, 180);
-    border-radius: 15px;
-    width: 40px;
-    padding: 4px;
-    text-align: center;
-  }
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
 
 }
+.ai{
+  background-color: rgb(98, 80, 180);
+  border-radius: 15px;
+  width: 40px;
+  padding: 4px;
+  text-align: center;
+}
+
 .blog-midsection{
   display: flex;
 
@@ -472,7 +472,7 @@ margin-top: 10px;
   min-height: 300px;
   background-size: cover;
   background-repeat:no-repeat ;
-  opacity: 1;
+  
   background-attachment: fixed;
 
 }
@@ -499,3 +499,46 @@ margin-top: 10px;
   margin-bottom: 20px;
 }
 /* testimonial section end  */
+
+
+/* contact-info styling start */
+.contact-section{
+  margin: 50px 0px;
+  background-color:rgb(12, 57, 96) ; 
+  padding: 50px 50px 100px 50px ;
+}
+
+.contact-section .head .underline{
+  background-color: #fff;
+}
+.contact-form{
+  margin-left: 200px;
+}
+ .contact-container{
+  width: 65%;
+  margin: 40x auto;
+  display: flex;
+  justify-content: center;
+}
+.contact-details{
+  width: 40%;
+  text-align: center;
+  color: #fff;
+}
+.contact-details .social-icons{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 20px ;
+  
+}
+.contact-details .social-icons .icon{
+width: 50px;
+height: 50px;
+border-radius:50% ;
+color: rgb(90, 63, 143);
+}
+.contact-form{
+width: 60%;
+}
+/* contact-info styling end */

@@ -36,7 +36,9 @@ li {
   display: flex;
   justify-content: space-between;
 }
-
+.logo:hover{
+  cursor: pointer;
+}
 .social-media-links {
   display: flex;
   list-style: none;

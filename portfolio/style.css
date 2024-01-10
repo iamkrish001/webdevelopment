@@ -9,7 +9,24 @@
   background-color: rgb(77, 63, 143);
   display: flex;
   justify-content: space-between;
+  position: sticky;
+  top: 28px;
+  z-index: 1000;
 }
+
+@media screen and(max-width : 758px) {
+.nav-bar{
+  margin: 20px;
+}
+}
+
+@media screen and(max-width : 520px) {
+  .nav-bar{
+    margin: 40px;
+
+  }
+  }
+
 
 .mylist {
   list-style: none;
@@ -35,6 +52,9 @@ li {
   color: #fff;
   display: flex;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 .logo:hover{
   cursor: pointer;
@@ -53,6 +73,14 @@ li {
   padding-top: 10px;
 }
 
+.mylist3 {
+  display: flex;
+  list-style: none;
+  padding-top: 10px;
+}
+.mylist2 span{
+display: flex;
+margin-right:50px ;}
 /* .mybox{
   background-color: rgb(244, 224, 4) ; 
   height: 500px; 
@@ -504,7 +532,7 @@ margin-top: 10px;
 /* contact-info styling start */
 .contact-section{
   margin: 50px 0px;
-  background-color:rgb(12, 57, 96) ; 
+  background-color: rgb(53, 69, 103); 
   padding: 50px 50px 100px 50px ;
 }
 

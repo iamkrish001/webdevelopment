@@ -19,11 +19,13 @@
     background-color: rgb(77, 63, 143);
     position: sticky;
     top: 0px;
-  
-}
+  }
 }
 .menubar {
   display: none;
+}
+.menubar:hover{
+ cursor: pointer; 
 }
 .menubar i {
   margin: 10px;
@@ -38,19 +40,17 @@
   }
 }
 
-
 .mylist {
   list-style: none;
   display: flex;
 }
 @media screen and (max-width: 637px) {
-.mylist{
-  list-style: none;
-  display: flex;
-  padding: 13px;
+  .mylist {
+    list-style: none;
+    display: flex;
+    padding: 13px;
+  }
 }
-}
-
 
 li,
 .blog-image :hover {
@@ -94,13 +94,12 @@ li {
   padding-top: 10px;
 }
 
-
 @media screen and (max-width: 637px) {
   .mylist2 {
     display: none;
     list-style: none;
     padding-top: 10px;
-}
+  }
 }
 .mylist3 {
   display: flex;
@@ -112,7 +111,7 @@ li {
     display: none;
     list-style: none;
     padding-top: 10px;
-}
+  }
 }
 .mylist2 span {
   display: flex;
@@ -180,6 +179,9 @@ position: absolute;
   right: 0;
   top: 20%;
 }
+
+
+
 
 /*about section styling*/
 /* .about_section{

@@ -8,8 +8,29 @@ body{
 }
 
 .top {
-    background-color: rgb(19, 194, 194);
-    display: flex;
+    background-color: #c1282f;
+        display: flex;
     justify-content: space-between;
     padding: 10px 100px 0px;
+}
+
+.top-right{
+    display: flex;
+}
+
+.contact{
+    margin-right: 20px;
+}
+form {
+    display: flex;
+}
+
+.searchbar-text{
+    padding: 15px;
+    width: 150%;
+    margin-bottom: 10px;
+}
+
+input::placeholder{
+    font-size:15px;
 }

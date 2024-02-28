@@ -29,7 +29,9 @@ nav {
   margin-left: 30%;
   margin-right: 20%;
 }
-
+.mid-content h1 {
+  font-size: 34px;
+}
 .subscribe-button {
   background-color: #a11ff7;
   height: 32px;
@@ -38,15 +40,44 @@ nav {
   padding: 0px 10px 10px;
   border-radius: 8px;
 }
-.right-content{
-    display: flex;
-    
+.right-content {
+  display: flex;
 }
-.sign-in{
-    margin-left: 25px;
-    margin-right: 25px;
+.sign-in {
+  margin-left: 25px;
+  margin-right: 25px;
 }
-.sign-in,.subscribe-button, .search, .menubar i,.subscribe-to-nl :hover{
-    cursor: pointer;
+.sign-in,
+.subscribe-button,
+.search,
+.menubar i,
+.subscribe-to-nl :hover {
+  cursor: pointer;
 }
 /* nav bar end  */
+
+/* breakingnews-section start  */
+.breakingnews {
+  display: flex;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.br-news:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.br-news span h5:hover {
+  text-decoration: none;
+}
+
+.br-news h4{
+  margin: 7px;
+}
+.breakingnews-btn {
+  background-color: red;
+  width: 68px;
+  margin: 20px;
+  padding: 2px;
+}
+
+/* breakingnews-section end  */

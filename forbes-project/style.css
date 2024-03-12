@@ -55,7 +55,8 @@ nav {
 .search,
 .menubar i,
 .subscribe-to-nl ,
-.list div:hover {
+.list div,
+.premium-content h3:hover {
   cursor: pointer;
 }
 /* nav bar end  */
